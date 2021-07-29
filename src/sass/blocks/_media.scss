@@ -1,0 +1,331 @@
+@media (max-width: 991px){
+    .promo{
+        &__header{
+            font-size: 37px;
+        }
+        &__subheader{
+            font-size: 21px;
+        }
+        &__icons{
+            width: 386px;
+            &__icon{
+                width: 144px;
+            }    
+        }
+        &__link{
+            font-size: 14px;
+        }
+        &__wrapper{
+            align-items: center;
+        }
+    }
+    .header{
+        justify-content: space-around;
+        &__logo{
+            width: 225px;
+        }
+        &__official{
+            font-size: 11px;
+        }
+        &__phone{
+            font-size: 15px;
+        }
+    }
+    .button{
+        &__main{
+            width: 270px;
+        }
+    }
+    .title{
+        font-size: 27px;
+        &__left{
+            font-size: 21px;
+        }
+    }
+    .advantages{
+        &__wrapper{
+            margin-top: 57px;
+        }
+        &__item{
+            max-width: 286px;
+        }
+    }
+    .consultation{
+        padding-left: 40px;
+        &__desc{
+            font-size: 17px;
+        }
+    }
+    .reviews{
+        &__item{
+            flex-direction: column;
+        }
+        &__content{
+            margin-top: 35px;
+        }
+        &__title{
+            text-align: center;
+        }
+        &__subtitle{
+            text-align: center;
+        }
+        &__desc{
+            text-align: center;
+            br{
+                display: none;
+            }
+        }
+}
+@media (max-width: 768px){
+    .header{
+        &__phone{
+            font-size: 13px;
+        }
+        &__official{
+            span{
+                font-size: 16px;
+            }
+        }
+        &__logo{
+            width: 211px;
+            img{
+                width: 100%;
+            }
+        }
+     }
+     .catalog{
+         &__tabs{
+             flex-wrap: wrap;
+         }
+         &__tab{
+             margin-top: 10px;
+         }
+     }
+
+    }
+
+
+    .promo{
+        &__wrapper{
+            align-items: center;
+        }
+        &__header{
+            font-size: 33px;
+        }
+        &__subheader{
+            font-size: 18px;
+        }
+        &__link{
+            font-size: 12px;
+        }
+    }
+    .button{
+        width: 125px;
+        font-size: 10px;
+    }
+    .button_main{
+        width: 191px;
+        font-size: 13px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .advantages{
+        &__item{
+            max-width: 225px;
+            img{
+                width: 65px;
+            }
+        }
+        &__title{
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        &__desc{
+            font-size: 12px;
+            margin-top: 15px;
+        }
+    }
+    .consultation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        &__desc{
+            text-align: center;
+        }
+    }
+    .title{
+        &__left{
+            text-align: center;
+        }
+    }
+    .feed-form{
+        margin: 0 auto;
+    }
+    .button{
+        &__submit{
+            margin: 0 auto;
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    .carousel{
+        &__inner{
+            max-width: 500px;
+            img{
+                width: 100%;
+            } 
+            .slick-dots{
+                width: 150px;
+                margin: 30px auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style-type: none;
+                button{
+                    outline: none;
+                    border: none;
+                    font-size: 0px;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    background-color: #bebec0;
+                    display: block;
+                    margin: 1px;
+                }
+                .slick-active{
+                    box-sizing: initial;
+                    border: 3px solid #bebec0;
+                    border-radius: 100%;
+                }
+               
+            }           
+    }
+}
+
+@media (max-width: 576px){
+    .promo{
+        &__header{
+            font-size: 25px;
+        }
+        &__subheader{
+            font-size: 14px;
+        }
+        &__icons{
+            width: 320px;
+            display: flex;
+            &__icon{
+                width: 115px;
+                font-size: 11px;
+            }
+        }
+    }
+    .header{
+        &__official{
+           display: none;
+        }
+        &__logo{
+            width: 165px;
+        }
+        &__phone{
+            font-size: 12px;
+        }
+
+    }
+    .button{
+        margin-top: 5px;
+    }
+    .button_main{
+        margin-top: 35px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .advantages{
+        padding: 50px 0 60px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__item{
+            margin-top: 15px;
+        }
+    }
+    .consultation{
+        &__desc{
+            font-size: 14px;
+        }
+        .title{
+            &__left{
+                font-size: 15px;
+            }
+        }
+    }
+    .button{
+        &__submit{
+            font-size: 13px;
+        }
+    }
+    .carousel{
+        &__inner{
+            max-width: 320px;
+            img{
+                width: 100%;
+            }
+            
+        }
+    }
+    .catalog{
+        &__tab{
+            width: 150px;
+            div{
+                font-size: 13px;
+            }
+        }
+    }
+    .reviews{
+        &__title{
+            text-align: left;
+        }
+        &__subtitle{
+            text-align: left;
+        }
+        &__desc{
+            text-align: left;
+        }
+        
+    }
+    .footer{
+        &__social-item{
+            height: 45px;
+        }
+        &__info{
+            width: 100%;
+        }
+    }
+    .modal{
+        width: 320px;
+        &__subtitle{
+            font-size: 15px;
+        }
+        &__desc{
+            font-size: 12px;
+        }
+        &__close{
+            top: -29px;
+            right: 2px;
+            font-size: 31px;
+            font-weight: 800;
+        }
+    }
+    .feed-form_mt25{
+        width: 100%;
+        margin-top: 10px;
+        input{
+            font-size: 11px;
+        }
+    }
+}
+}
